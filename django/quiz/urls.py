@@ -11,4 +11,4 @@ urlpatterns = [
     #path('a/', Answer.as_view(), name='answer'),
     path('r/<str:topic>/', RandomQuestionTopic.as_view(), name='RandomQuestionTopic'),
     path('single/<str:title>/', StartQuiz.as_view(), name='quiz'),
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+]# + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
