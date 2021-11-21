@@ -28,9 +28,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'quiz',
 
-    'corsheaders',
+
 ]
 #'rest_framework',
+#'corsheaders',
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
